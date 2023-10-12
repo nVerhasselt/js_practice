@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.content>h1 {
+    margin: 3rem;
+}
+
+.content>.img_content>img {
+    max-width: 30rem;
+    max-height: 30rem;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: column nowrap;
+}
+
+.text>p {
+    margin: 1rem;
+}
+
+.text>#guess {
+    width: 10rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.text>#submit, .text>#reset {
+    width: 4rem;
+    padding: .5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.text>#reset {
+    width: 5rem;
+    display: none;
+}

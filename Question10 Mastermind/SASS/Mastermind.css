@@ -1,0 +1,121 @@
+h1, p {
+  text-align: center;
+}
+
+#hands {
+  padding: 1rem;
+}
+
+#proposition_list {
+  display: flex;
+  justify-content: center;
+}
+
+.dot {
+  background: white;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.matching_result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matching_dot {
+  background: white;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+#right_place_color {
+  background: greenyellow;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+#right_color_color {
+  background: black;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+#red {
+  background: red;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+#green {
+  background: green;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+#yellow {
+  background: yellow;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+#blue {
+  background: blue;
+  border: 2px solid black;
+  margin: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+#color_to_select {
+  display: flex;
+  justify-content: center;
+}
+
+#win_message {
+  display: none;
+  position: absolute;
+  background: rgb(37, 37, 56);
+  color: white;
+  left: 40%;
+  top: 30%;
+  margin: 0 auto;
+  width: 20%;
+  height: 30%;
+  text-align: center;
+}
+
+#loose_message {
+  display: none;
+  position: absolute;
+  background: rgb(37, 37, 56);
+  color: white;
+  left: 40%;
+  top: 30%;
+  margin: 0 auto;
+  width: 20%;
+  height: 30%;
+  text-align: center;
+}/*# sourceMappingURL=Mastermind.css.map */

@@ -1,0 +1,33 @@
+@mixin dot {
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+@mixin matchingDot {
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin winLoose {
+    display: none;
+    position: absolute;
+    background: rgb(37, 37, 56);
+    color: white;
+    left:40%;
+    top: 30%;
+    margin: 0 auto;
+    width:20%;
+    height:30%;
+    text-align: center;
+}

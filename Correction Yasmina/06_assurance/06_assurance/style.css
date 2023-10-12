@@ -1,0 +1,16 @@
+.results {
+    position: relative;
+}
+
+span {
+    background-color: white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 0;
+    left: 0;
+}
+
+#results {
+   margin-left: 20px;
+}

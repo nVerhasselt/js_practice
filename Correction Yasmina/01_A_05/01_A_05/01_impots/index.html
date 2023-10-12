@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <p>Salutations zorglubien, il est temps de voir si vous êtes éligible à l'impôt.</p>
+        <p>Pour ce faire, il suffira de rentrer votre âge et votre sexe, et laisser tourner la machine.</p>
+        
+        <select name="sex" id="sex">
+            <option value="" disabled selected>--Veuillez choisir un sexe--</option>
+            <option value="homme">Homme</option>
+            <option value="femme">Femme</option>
+        </select>
+
+        <input type="number" name="age" id="age" value="0" min="0">
+        <button id="submit">Verdict</button>
+        <p id="answer"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

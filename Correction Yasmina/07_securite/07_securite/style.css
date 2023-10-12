@@ -1,0 +1,39 @@
+:root {
+    --main-green: rgb(5, 139, 72);
+    --second-green: rgb(116, 202, 39);
+    --yellow: rgb(251, 200, 1);
+    --orange:rgb(244,115,15);
+    --red:rgb(240, 45,26);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.content>p {
+    padding: 3rem;
+}
+
+#password {
+    width: 25rem;
+    padding: .7rem;
+    text-align: center;
+}
+
+#results {
+    background-color: white;
+    padding: 1.5rem;    
+    margin: 1.5rem;
+    border-radius: 15px;
+    transition: .3s;
+}

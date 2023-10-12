@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assurance</title>
+</head>
+<body>
+    <p>Bonjour, bienvenue chez Groupamama, la compagnie d'assurance automobile.</p>
+    <p>En nous basant sur quelques critères, nous allons pouvoir vous proposer le tarif d'assurance le plus adapté à vos besoins.</p>
+    <p>Veuillez renseigner :</p>
+    <input type="number" name="age" id="age" min="0"> <label for="age">Votre âge</label><br>
+    <input type="number" name="permis" id="permis" min="0"> <label for="permis">Depuis combien d'années vous avez le permis</label><br>
+    <input type="number" name="accident" id="accident" min="0"> <label for="accident">Le nombre d'accidents dans lequels vous avez été impliqué</label><br>
+    <input type="number" name="anciennete" id="anciennete" min="0"> <label for="anciennete">Votre nombre d'années d'ancienneté chez nous</label><br>
+    <button id="submit">Valider</button>
+    <div class="results">
+        <span id="color"></span>
+        <p id="results"></p>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>

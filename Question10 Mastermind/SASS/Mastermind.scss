@@ -1,0 +1,74 @@
+@import 'mixins';
+
+h1, p {
+    text-align: center;
+}
+
+// style affichage manches au démarrage
+#hands {
+    padding: 1rem;  
+}
+
+#proposition_list {
+    @include flexCenter;
+}
+
+.dot {
+    background: white;
+    @include dot;
+}
+
+.matching_result {
+    @include flexCenter;
+    align-items: center;
+}
+
+.matching_dot{
+    background: white;
+    @include matchingDot;
+}
+
+#right_place_color{
+    background: greenyellow;
+    @include matchingDot;
+}
+
+#right_color_color{
+    background: black;
+    @include matchingDot;
+}
+
+//style couleurs à selectionner
+#red {
+    background: red;
+    @include dot;
+}
+
+#green {
+    background: green;
+    @include dot;
+}
+
+#yellow {
+    background: yellow;
+    @include dot;
+}
+
+#blue {
+    background: blue;
+    @include dot;
+}
+
+#color_to_select {
+    @include flexCenter;
+}
+
+//win message
+#win_message {
+   @include winLoose;
+}
+
+#loose_message {
+    @include winLoose;
+}
+
